@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>广外2018新春快乐</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div id="page_1" class="page">
+	<div class="content_bg"></div>
+	<div class="music_stop"><img src="img/music_play.png" class="music_play"></div>
+	<div class="headline"><img src="img/index_headline.png"></div>
+	<div class="school_badge"><img src="img/index_school_badge.png"></div>
+	<div id="star_circle">
+		<img id="circle1" class="star_circle1" src="img/index_0001_star_circle1.png">
+		<img id="circle2" class="star_circle2" src="img/index_0002_star_circle2.png">
+		<img id="circle3" class="star_circle3" src="img/index_0000_star_circle3.png">
+		<img id="light" class="star_light" src="img/index_star_light.png">
+	</div>
+	<div class="school_motto">
+		<img class="motto_1" src="img/index_school_motto.png">
+		<img class="motto_2" src="img/index_school_motto2.png">
+	</div>
+	<div id="star_rise"><img src="img/index_star_rise.png"></div>
+	<button id="btn_1">点亮校徽</button>
+	<button id="btn_2">送出祝福</button>
+	<div id="latest_blessing" class="user_blessing">
+		<div class="big_box">
+			<div class="little_box">
+				<!-- <div class="blessing_list">
+					<span class="user_major" id="latest_user_major">87商英</span>
+					<span class="user_name">(</span>
+					<span class="user_name" id="latest_user_name">李俊华</span>
+					<span class="user_name">)</span>
+					<span class="blessing_content">:</span>
+					<span class="blessing_content" id="latest_content">六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。</span>
+					<span class="blessing_time"  id="latest_time">4分钟前</span>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<a href="https://h5.sosho.cn/community/detail.html?id=1717&from=singlemessage&isappinstalled=0">点击加入校友会</a>
+	<img id="arrow" src="img/arrow.png">
+</div>
+<div id="page_2" class="page">
+	<div class="content_bg"></div>
+	<!-- <div class="music_stop"><img src="img/music_play.png" class="music_play"></div> -->
+	<div class="blessing_box">
+		<img id="arrow_down" src="img/arrow_down.png">
+		<div class="blessing_box_2">
+		<!-- <div class="user_blessing">
+			<span class="user_major" id="latest_user_major">87商英</span>
+			<span class="user_name">(</span>
+			<span class="user_name" id="latest_user_name">李俊华</span>
+			<span class="user_name">)</span>
+			<span class="blessing_content">:</span>
+			<span class="blessing_content" id="latest_content">六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。六十载东林蓬勃发展，奋发图强，得以桃李满天下，祝福母校明天更辉煌。</span>
+			<span class="blessing_time"  id="latest_time">4分钟前</span>
+		</div> -->
+		</div>
+		<div class="loading_icon"></div>
+		<div class="nomore_box">没有更多祝福啦^_^</div>
+	</div>
+</div>
+<div id="mask"></div>
+<div id="login_box" class="popup_box hongbao_box">
+	<p>专业班级：</p>
+	<input id="user_class" type="text" name="" placeholder="例：87信息">
+	<p>名字：</p>
+	<input id="user_name" type="text" name="" placeholder="例：李俊华">
+	<button id="login_btn">送祝福</button>
+</div>
+<div id="num_box" class="popup_box">
+	<div class="num_box_bg"><img src="img/num_box_bg.png"></div>
+	<span id="num_box_num_in" class="num_box_num"></span>
+	<div class="num_box_word"><img src="img/index_num_box_word.png"></div>
+</div>
+<div id="blessing_box" class="popup_box hongbao_box">
+	<p>请输入祝福：（100字以内）</p>
+	<textarea id="blessing_send_content"></textarea>
+	<button id="blessing_send_btn">发送</button>
+</div>
+<audio loop="loop" id="music_mp3"><source src="audio/bgm.mp3" type="audio/mpeg"></audio>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
